@@ -1,0 +1,117 @@
+(footprint "RT0402BRD0727RL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "-55℃~+155℃ 27Ω 63mW Thin Film Resistor ±0.1% ±25ppm/℃ 0402 Chip Resistor - Surface Mount ROHS")
+	(tags "C852682 R0402 RT0402BRD0727RL YAGEO")
+	(property "Reference" "R8"
+		(at 0 -1.4986 0)
+		(layer "F.SilkS")
+		(uuid "d568360f-0c60-47ad-8abb-ff366181e2c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "27"
+		(at 0 1.4986 0)
+		(layer "F.Fab")
+		(uuid "a9ced8ba-b6e9-4ecc-bd32-768d0f2321e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404241436_YAGEO-RT0402BRD0727RL_C852682.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e86f8ed8-d4d3-46cf-8679-485654e94f82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-55℃~+155℃ 27Ω 63mW Thin Film Resistor ±0.1% ±25ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9155555-91f1-4338-a490-41ec39f2794f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C852682"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee1eb1ad-5552-4133-a409-dd9efc9ed57c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68853cde-5bfe-4309-a594-06cd3e26d70a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "RT0402BRD0727RL"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d8bbad6-9a8b-477d-8d40-9aa313d08c72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd rect
+		(at -0.432816 0)
+		(size 0.565658 0.54)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fceb1997-a0b5-4d18-b626-e60f69173093")
+	)
+	(pad "2" smd rect
+		(at 0.432816 0)
+		(size 0.565658 0.54)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "661182aa-e28b-426a-b17d-7ba3f4b41860")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JLCImport.3dshapes/RT0402BRD0727RL.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
