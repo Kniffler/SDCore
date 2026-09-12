@@ -36,9 +36,10 @@ You'll need:
 - a breakout board of any USB end (male or female, type-A or type-C - whichever you can use to plug into your PC) with a D- and a D+ pin (short pins if there are multiple of each, such that you only have 1 D- and 1 D+),
 - a breakout board of a **standard SD card** with ALL of these pins present: 3 (VSS/GND), 4 (VDD/3V3), 6 (the magic pin), 8 (DATA_1) and 9 (DATA_2) - other pins are optional.
 
-If you don't have an SD breakout, look have a look at [this](https://www.instructables.com/Cheap-DIY-SD-card-breadboard-socket/) article on how to make one with all the needed pins.
 > [!WARNING]
 > If any of these SD pins are missing from the breakout, you will not be able to program your SDCore.
+
+If you don't have an SD breakout, look have a look at [this](https://www.instructables.com/Cheap-DIY-SD-card-breadboard-socket/) article on how to make one with all the needed pins.
 
 Now you connect it as follows:
 1. GND to pin 3 (may also be labeled as VSS or GND),
@@ -80,6 +81,7 @@ GPIO 7 - SPI0 MOSI
 GPIO 24 - DATA1 (pin 8)
 GPIO 25 - DATA2 (pin 9)
 ```
+The reason for this arrangement is that it allows for the SPI communication with the host and the communication with the micro-SD card to be held separately and/or simultaneously.
 
 The selection signal is controlled by GPIO 3 and is pulled down to GND with 10kΩ. Driving this signal high will put the demultiplexer into the sniffing mode pinout, whereas the direct mode's pinout becomes disconnected.
 
@@ -87,9 +89,9 @@ GPIO 0 is not exposed (thus the UART bootloader mode is not used).
 
 The connections/pins 3V3, GND, SWCLK, SWDIO, RUN, GPIO 12-23 and 26-29 are exposed via a board-to-board connector on the SDCore. A breakout cable has not yet been added to this repo.
 
-> [!WARNING]
+> [!CAUTION]
 > The USB signals of the RP2350A are always connected to the DATA 1 and 2 pins.
-> It is the user's responsibility to ensure the MCU does not read USB when it is not supposed to.
+> It is the user's responsibility to ensure the MCU does not read USB when it is not supposed to, this also means disabling stdio over USB ***and*** stdio over UART when not using the programmer board.
 
 # Credits
 All mine baby.
