@@ -33,7 +33,7 @@ If ordering this PCB is not an option, please continue in the subsection below.
 ## Making a programmer board at home
 You'll need:
 - a reliable 3.3V power source,
-- a breakout board of any USB end (male or female, type-A or type-C - whichever you can use to plug into your PC) with a D- and a D+ pin (short them if there are multiple of each),
+- a breakout board of any USB end (male or female, type-A or type-C - whichever you can use to plug into your PC) with a D- and a D+ pin (short pins if there are multiple of each, such that you only have 1 D- and 1 D+),
 - a breakout board of a **standard SD card** with ALL of these pins present: 3 (VSS/GND), 4 (VDD/3V3), 6 (the magic pin), 8 (DATA_1) and 9 (DATA_2) - other pins are optional.
 
 If you don't have an SD breakout, look have a look at [this](https://www.instructables.com/Cheap-DIY-SD-card-breadboard-socket/) article on how to make one with all the needed pins.
