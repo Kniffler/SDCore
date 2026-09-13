@@ -1,0 +1,117 @@
+(footprint "CRCW04024K70FKEDC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "-55℃~+155℃ 4.7kΩ 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS")
+	(tags "C844311 CRCW04024K70FKEDC R0402 Vishay Intertech")
+	(property "Reference" "R12"
+		(at 0 -1.4986 0)
+		(layer "F.SilkS")
+		(uuid "4882a718-6f90-4c10-b7a3-e08fb0e11db1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "4.7k"
+		(at 0 1.4986 0)
+		(layer "F.Fab")
+		(uuid "9f080d60-e947-4259-983b-533b53de6f78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108140230_Vishay-Intertech-CRCW04024K70FKEDC_C844311.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02fd55da-0fac-4323-84e0-398f96460cc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-55℃~+155℃ 4.7kΩ 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b237aa5-5892-48de-a0ab-69f7b36cd2ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C844311"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed97d8fb-1731-41db-a4c1-b0f80d72cdaa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Vishay Intertech"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9d15c87-803b-4a15-9759-c7c3660982c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "CRCW04024K70FKEDC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7aa79f7d-bfe8-4d2b-840d-bbdb16dd0bb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd rect
+		(at -0.432816 0)
+		(size 0.565658 0.54)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e6f76a2d-2ef7-4c9e-bf32-863849b6edd1")
+	)
+	(pad "2" smd rect
+		(at 0.432816 0)
+		(size 0.565658 0.54)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c0d7ab65-ce7f-4cd8-ae24-c7fccaafc5b5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JLCImport.3dshapes/CRCW04024K70FKEDC.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

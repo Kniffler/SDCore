@@ -849,6 +849,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:TS-1101-C-W"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS-1101-C-W"
+				(at 0 -2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:TS-1101-C-W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2002271735_XKB-Connection-TS-1101-C-W_C318938.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-30℃~+85℃ 12V 2.5mm 2.6N 3.6mm 50,000 cycles 50mA 6mm No Rectangular Button SPST Surface Mount,Vertical Without Bracket SMD,6x3.6mm Tactile Switches ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C318938"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XKB Connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "TS-1101-C-W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C318938 SW-SMD_L6.0-W3.3-LS8.0_TS-1101-C-W TS-1101-C-W XKB Connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS-1101-C-W_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.016) (xy 2.54 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.016) (xy -0.508 1.27) (xy 0.508 1.27) (xy 0.508 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCImport:USB-310"
 			(pin_names
 				(offset 1.016)
@@ -2118,7 +2268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bbc8e10-4454-4f1e-9a8b-c8977866df95")
-		(property "Reference" "USB2"
+		(property "Reference" "USB1"
 			(at 50.165 29.21 0)
 			(effects
 				(font
@@ -2251,7 +2401,7 @@
 		(instances
 			(project ""
 				(path "/953ecaf1-4dee-412f-b3a8-cd4cd6a046bb"
-					(reference "USB2")
+					(reference "USB1")
 					(unit 1)
 				)
 			)
@@ -3123,6 +3273,103 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:TS-1101-C-W")
+		(at 124.46 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79eaa02a-70cb-4538-8c20-7546afde46c8")
+		(property "Reference" "SW1"
+			(at 125.73 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS-1101-C-W"
+			(at 125.73 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:TS-1101-C-W"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2002271735_XKB-Connection-TS-1101-C-W_C318938.pdf"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-30℃~+85℃ 12V 2.5mm 2.6N 3.6mm 50,000 cycles 50mA 6mm No Rectangular Button SPST Surface Mount,Vertical Without Bracket SMD,6x3.6mm Tactile Switches ROHS"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318938"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connection"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TS-1101-C-W"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "470c19dd-773f-4c26-b40b-aee5b55937a1")
+		)
+		(pin "2"
+			(uuid "8c0183d6-fa6e-4b32-8f9d-9aecc1a6307c")
+		)
+		(instances
+			(project ""
+				(path "/953ecaf1-4dee-412f-b3a8-cd4cd6a046bb"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 73.66 76.2 90)
 		(unit 1)
@@ -3130,7 +3377,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "81c762ef-d528-44b8-95d5-d8ccb052acbe")
 		(property "Reference" "#PWR017"
 			(at 77.47 76.2 0)
@@ -3142,7 +3388,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 69.85 76.1999 90)
+			(at 71.12 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +3519,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 64.008 67.056 0)
+			(at 70.104 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3827,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 124.46 55.88 270)
+		(at 124.46 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3590,7 +3836,7 @@
 		(fields_autoplaced yes)
 		(uuid "c40e6159-1918-4080-bce5-4f76f1668f12")
 		(property "Reference" "#PWR01"
-			(at 120.65 55.88 0)
+			(at 120.65 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3599,7 +3845,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 128.27 55.8799 90)
+			(at 128.27 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,7 +3854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 55.88 0)
+			(at 124.46 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 55.88 0)
+			(at 124.46 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,7 +3872,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 124.46 55.88 0)
+			(at 124.46 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,7 +3902,7 @@
 		(dnp no)
 		(uuid "cdebdf2c-b6eb-435a-85ed-18b398ea8e07")
 		(property "Reference" "R2"
-			(at 63.5 51.816 0)
+			(at 63.246 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3910,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 62.992 47.244 0)
+			(at 69.596 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)

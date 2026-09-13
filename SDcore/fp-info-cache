@@ -1,4 +1,4 @@
-25703065837026539
+25706644443831261
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -66486,6 +66486,13 @@ C71623 CRCW04021K00FKED R0402 Vishay Intertech
 2
 2
 JLC
+CRCW04024K70FKEDC
+-55℃~+155℃ 4.7kΩ 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+C844311 CRCW04024K70FKEDC R0402 Vishay Intertech
+0
+2
+2
+JLC
 CRCW040210K0FKED
 -55℃~+155℃ 10kΩ 50V 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
 C71617 CRCW040210K0FKED R0402 Vishay Intertech
@@ -66664,6 +66671,13 @@ JLCImport
 CRCW04021K00FKED
 -55℃~+155℃ 1kΩ 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
 C71623 CRCW04021K00FKED R0402 Vishay Intertech
+0
+2
+2
+JLCImport
+CRCW04024K70FKEDC
+-55℃~+155℃ 4.7kΩ 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+C844311 CRCW04024K70FKEDC R0402 Vishay Intertech
 0
 2
 2
