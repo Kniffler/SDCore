@@ -1576,143 +1576,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:CRCW04024K70FKEDC"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 3.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CRCW04024K70FKEDC"
-				(at 0 -3.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "JLCImport:CRCW04024K70FKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108140230_Vishay-Intertech-CRCW04024K70FKEDC_C844311.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "-55℃~+155℃ 4.7kΩ 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C844311"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay Intertech"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "CRCW04024K70FKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C844311 CRCW04024K70FKEDC R0402 Vishay Intertech"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CRCW04024K70FKEDC_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "JLCImport:ERJPA2F68R0X"
 			(pin_names
 				(offset 1.016)
@@ -6726,10 +6589,28 @@
 		(uuid "5ff5d574-b0b0-4717-8460-ab5eade925c3")
 	)
 	(junction
+		(at 60.96 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "649863e9-ec12-4db2-aefc-f57fe84a0f43")
+	)
+	(junction
+		(at 60.96 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67755467-714c-4205-89c3-e8b25f9bda52")
+	)
+	(junction
 		(at 144.78 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b71013b-c470-427b-9f3d-23dcf15b4a31")
+	)
+	(junction
+		(at 60.96 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c8ae667-5e68-4772-8966-42e89c09f6be")
 	)
 	(junction
 		(at 118.11 49.53)
@@ -6780,6 +6661,12 @@
 		(uuid "af0999c5-9692-4bf1-8ed8-20b24ac161cf")
 	)
 	(junction
+		(at 60.96 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6d4dab4-2cfd-4cee-90c4-35cb9b076682")
+	)
+	(junction
 		(at 163.83 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6798,10 +6685,10 @@
 		(uuid "d07e1098-a88b-4744-82e9-66789efd658e")
 	)
 	(junction
-		(at 153.67 25.4)
+		(at 60.96 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dea74562-3c0f-46c0-8930-4ba368c90591")
+		(uuid "edec9a53-6272-41b0-94dd-0e3f3f0f0e40")
 	)
 	(junction
 		(at 171.45 171.45)
@@ -6828,7 +6715,7 @@
 		(uuid "fd9ddfd9-e6ab-43d8-976c-ecf52a5a6c9a")
 	)
 	(no_connect
-		(at 35.56 93.98)
+		(at 35.56 88.9)
 		(uuid "cd54ed67-d378-433b-8529-7d5779336557")
 	)
 	(wire
@@ -6943,6 +6830,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 148.59) (xy 50.8 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c20950b-d05e-4da9-81e5-47d02fe867bc")
+	)
+	(wire
+		(pts
 			(xy 160.02 106.68) (xy 160.02 118.11)
 		)
 		(stroke
@@ -6983,17 +6880,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 25.4) (xy 154.94 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27c9c315-dd9e-4383-81a6-30bd8d6b207e")
-	)
-	(wire
-		(pts
-			(xy 44.45 139.7) (xy 40.64 139.7)
+			(xy 44.45 130.81) (xy 40.64 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7033,23 +6920,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 142.24) (xy 40.64 142.24)
+			(xy 44.45 133.35) (xy 40.64 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "30ef43c7-ac41-40a3-80ab-4eb30b16806f")
-	)
-	(wire
-		(pts
-			(xy 151.13 29.21) (xy 153.67 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32e692a2-81bd-4c8c-82f9-a05029b31c0c")
 	)
 	(wire
 		(pts
@@ -7083,6 +6960,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 153.67) (xy 50.8 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431bdec2-7ba6-4e4a-bb31-823ea8518cf8")
+	)
+	(wire
+		(pts
 			(xy 152.4 133.35) (xy 162.56 133.35)
 		)
 		(stroke
@@ -7113,7 +7000,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 144.78) (xy 40.64 144.78)
+			(xy 44.45 135.89) (xy 40.64 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7130,6 +7017,16 @@
 			(type default)
 		)
 		(uuid "48da252e-4f2f-4b29-b29e-46ac8cd739bc")
+	)
+	(wire
+		(pts
+			(xy 60.96 146.05) (xy 60.96 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ddb19e-bcd4-41ef-9c18-ba7a3ce65e39")
 	)
 	(wire
 		(pts
@@ -7150,6 +7047,36 @@
 			(type default)
 		)
 		(uuid "515dc994-c891-43d7-93f8-889b2385e307")
+	)
+	(wire
+		(pts
+			(xy 60.96 148.59) (xy 60.96 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548b4561-b3d9-426c-9c09-2784aea067e6")
+	)
+	(wire
+		(pts
+			(xy 50.8 151.13) (xy 60.96 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "565ca71b-a5d7-4de5-963d-9e11cad49ab9")
+	)
+	(wire
+		(pts
+			(xy 40.64 143.51) (xy 50.8 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "566ed41a-1f1c-45eb-8290-60a4c0028f53")
 	)
 	(wire
 		(pts
@@ -7263,6 +7190,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 151.13) (xy 60.96 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66662c65-3b54-491b-8cfb-e23b82b86618")
+	)
+	(wire
+		(pts
 			(xy 160.02 33.02) (xy 160.02 35.56)
 		)
 		(stroke
@@ -7273,7 +7210,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 134.62) (xy 40.64 134.62)
+			(xy 44.45 125.73) (xy 40.64 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7290,16 +7227,6 @@
 			(type default)
 		)
 		(uuid "6f7e41c0-7ee0-42ec-94c4-3e49c991e206")
-	)
-	(wire
-		(pts
-			(xy 153.67 29.21) (xy 153.67 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73d3c947-6aec-46a6-a5ed-acb56fabf6a7")
 	)
 	(wire
 		(pts
@@ -7333,6 +7260,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 143.51) (xy 60.96 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a65c884-603a-479e-96e4-fcc8d2e385c0")
+	)
+	(wire
+		(pts
 			(xy 152.4 113.03) (xy 152.4 128.27)
 		)
 		(stroke
@@ -7363,6 +7300,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 147.32) (xy 66.04 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a0a1da-52b3-47cd-96d9-878baeb22776")
+	)
+	(wire
+		(pts
 			(xy 129.54 101.6) (xy 129.54 109.22)
 		)
 		(stroke
@@ -7373,7 +7320,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 137.16) (xy 40.64 137.16)
+			(xy 44.45 128.27) (xy 40.64 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7433,6 +7380,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 140.97) (xy 60.96 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1ab1e6-e787-42a4-806c-77faffb661a0")
+	)
+	(wire
+		(pts
 			(xy 160.02 106.68) (xy 142.24 106.68)
 		)
 		(stroke
@@ -7483,6 +7440,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 147.32) (xy 60.96 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ea8fb1-9212-45ee-a60b-f92b881e232b")
+	)
+	(wire
+		(pts
 			(xy 154.94 118.11) (xy 154.94 130.81)
 		)
 		(stroke
@@ -7490,6 +7457,16 @@
 			(type default)
 		)
 		(uuid "9679c9fe-aebd-40cf-870c-8584f5708923")
+	)
+	(wire
+		(pts
+			(xy 50.8 146.05) (xy 60.96 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967f5f03-6ce4-4e53-b856-537ecc8bea65")
 	)
 	(wire
 		(pts
@@ -7503,7 +7480,7 @@
 	)
 	(wire
 		(pts
-			(xy 216.662 119.38) (xy 215.9 119.38)
+			(xy 242.062 130.81) (xy 241.3 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7520,6 +7497,16 @@
 			(type default)
 		)
 		(uuid "a352274b-e636-450a-88f8-020666729a4f")
+	)
+	(wire
+		(pts
+			(xy 50.8 140.97) (xy 60.96 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a419e551-2713-47db-8097-f7abd68722e7")
 	)
 	(wire
 		(pts
@@ -7723,17 +7710,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 29.21) (xy 140.97 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea4258c0-ab70-4f53-98bb-793b2c3a0692")
-	)
-	(wire
-		(pts
-			(xy 139.7 25.4) (xy 153.67 25.4)
+			(xy 139.7 25.4) (xy 154.94 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7753,7 +7730,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 129.54) (xy 216.662 129.54)
+			(xy 241.3 140.97) (xy 242.062 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7793,23 +7770,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 132.08) (xy 40.64 132.08)
+			(xy 44.45 123.19) (xy 40.64 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f625cf0a-4689-4950-9b8d-6993707cc580")
-	)
-	(wire
-		(pts
-			(xy 139.7 29.21) (xy 139.7 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7283fd6-a76e-4ab8-9804-3d784091c977")
 	)
 	(wire
 		(pts
@@ -7853,7 +7820,7 @@
 	)
 	(global_label "PROG_VSS"
 		(shape input)
-		(at 53.34 99.06 0)
+		(at 53.34 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7863,7 +7830,7 @@
 		)
 		(uuid "021f7f28-04a8-4338-ab73-6d60086e297d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.9409 99.06 0)
+			(at 65.9409 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7897,7 +7864,7 @@
 	)
 	(global_label "IN_CMD"
 		(shape input)
-		(at 35.56 116.84 180)
+		(at 35.56 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7907,7 +7874,7 @@
 		)
 		(uuid "06a3415f-e4a3-4942-a203-02e47d4243e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.6805 116.84 0)
+			(at 25.6805 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8008,7 +7975,7 @@
 	)
 	(global_label "OUT_CLK"
 		(shape input)
-		(at 40.64 139.7 180)
+		(at 40.64 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8018,7 +7985,7 @@
 		)
 		(uuid "0fe132ae-e2ee-4ad3-87eb-a36ea86d19d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.4905 139.7 0)
+			(at 29.4905 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8068,6 +8035,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT_CMD"
+		(shape input)
+		(at 40.64 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "143a37f0-43a9-4b28-bd66-6874108e1eb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.0672 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8141,7 +8130,7 @@
 	)
 	(global_label "OUT_DAT0"
 		(shape input)
-		(at 53.34 106.68 0)
+		(at 53.34 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8151,7 +8140,7 @@
 		)
 		(uuid "24b67331-9aba-43c5-bc05-0bc3bcdb8f38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.4571 106.68 0)
+			(at 65.4571 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8207,7 +8196,7 @@
 	)
 	(global_label "OUT_DAT1"
 		(shape input)
-		(at 40.64 144.78 180)
+		(at 40.64 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8217,7 +8206,7 @@
 		)
 		(uuid "2be35db5-c3d0-4208-9ecf-cba1f906ff75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.5229 144.78 0)
+			(at 28.5229 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8229,7 +8218,7 @@
 	)
 	(global_label "SPI1_RX_MISO"
 		(shape input)
-		(at 53.34 96.52 0)
+		(at 53.34 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8239,7 +8228,7 @@
 		)
 		(uuid "2dbf384b-eb0f-4b97-a6f6-74aaa8749836")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.6299 96.52 0)
+			(at 69.6299 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,7 +8240,7 @@
 	)
 	(global_label "OUT_CMD"
 		(shape input)
-		(at 53.34 109.22 0)
+		(at 53.34 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8261,7 +8250,7 @@
 		)
 		(uuid "2e061433-b47e-42ad-8be0-f41b3fa597e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.9128 109.22 0)
+			(at 64.9128 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,7 +8262,7 @@
 	)
 	(global_label "OUT_CMD"
 		(shape input)
-		(at 40.64 137.16 180)
+		(at 40.64 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8283,7 +8272,7 @@
 		)
 		(uuid "2ec83346-6bac-449d-9315-938a1b696929")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0672 137.16 0)
+			(at 29.0672 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,6 +8395,28 @@
 			)
 		)
 	)
+	(global_label "OUT_DAT2"
+		(shape input)
+		(at 40.64 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40f03736-e2a4-4a1a-8063-42b838f839de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.5229 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PROG_VSS"
 		(shape input)
 		(at 24.13 62.23 270)
@@ -8430,7 +8441,7 @@
 	)
 	(global_label "IN_DAT3"
 		(shape input)
-		(at 35.56 111.76 180)
+		(at 35.56 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8440,7 +8451,7 @@
 		)
 		(uuid "431d2710-ce86-47be-873a-51aa4de6fe19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.1362 111.76 0)
+			(at 25.1362 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,7 +8486,7 @@
 	)
 	(global_label "DATA_DIRECT_2"
 		(shape input)
-		(at 53.34 91.44 0)
+		(at 53.34 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8485,7 +8496,7 @@
 		)
 		(uuid "43a13eb6-aadd-49b3-98a7-bd5ebd2c7606")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.4161 91.44 0)
+			(at 70.4161 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8563,7 +8574,7 @@
 	)
 	(global_label "SPI0_SCK_CLK"
 		(shape input)
-		(at 44.45 139.7 0)
+		(at 44.45 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8573,7 +8584,7 @@
 		)
 		(uuid "4934ce08-6dcf-4387-b819-18eaed7defa2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.9818 139.7 0)
+			(at 60.9818 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,7 +8618,7 @@
 	)
 	(global_label "SPI1_TX_MOSI"
 		(shape input)
-		(at 53.34 93.98 0)
+		(at 53.34 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8617,7 +8628,7 @@
 		)
 		(uuid "4be83d9a-648f-495d-98e4-109f13fac2aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.3275 93.98 0)
+			(at 69.3275 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8629,7 +8640,7 @@
 	)
 	(global_label "SELECT_SD_PIN"
 		(shape input)
-		(at 53.34 88.9 0)
+		(at 53.34 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8639,7 +8650,7 @@
 		)
 		(uuid "4c40d2ca-da6b-4ca3-ba2f-fe251c6cc56a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.7184 88.9 0)
+			(at 70.7184 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8696,7 +8707,7 @@
 	)
 	(global_label "SPI0_CSn"
 		(shape input)
-		(at 44.45 134.62 0)
+		(at 44.45 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8706,7 +8717,7 @@
 		)
 		(uuid "4fca42e8-52d6-43a4-95a9-373090c7344a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.3251 134.62 0)
+			(at 56.3251 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8718,7 +8729,7 @@
 	)
 	(global_label "OUT_DAT3"
 		(shape input)
-		(at 40.64 134.62 180)
+		(at 40.64 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8728,7 +8739,7 @@
 		)
 		(uuid "546287e6-b103-454e-895d-3cdfbb46982c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.5229 134.62 0)
+			(at 28.5229 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8784,7 +8795,7 @@
 	)
 	(global_label "OUT_DAT2"
 		(shape input)
-		(at 40.64 132.08 180)
+		(at 40.64 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8794,7 +8805,7 @@
 		)
 		(uuid "5c4122ee-ca48-4273-b74f-1925c2a4e267")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.5229 132.08 0)
+			(at 28.5229 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8806,7 +8817,7 @@
 	)
 	(global_label "OUT_DAT1"
 		(shape input)
-		(at 53.34 116.84 0)
+		(at 53.34 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8816,7 +8827,7 @@
 		)
 		(uuid "5c417575-c435-44bc-9a6c-e7397eec0496")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.4571 116.84 0)
+			(at 65.4571 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8850,7 +8861,7 @@
 	)
 	(global_label "SPI1_SCK_CLK"
 		(shape input)
-		(at 35.56 91.44 180)
+		(at 35.56 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8860,7 +8871,7 @@
 		)
 		(uuid "65f14996-740b-4df8-b108-a19577de0b2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.0282 91.44 0)
+			(at 19.0282 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,9 +8925,53 @@
 			)
 		)
 	)
+	(global_label "OUT_DAT0"
+		(shape input)
+		(at 40.64 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69537eef-fac8-44c7-9f73-52c0e18a2f7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.5229 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT_DAT1"
+		(shape input)
+		(at 40.64 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6df4bc24-f1b8-4f51-afaa-4aa4e0e03267")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.5229 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DATA_SD_SNIFF_1"
 		(shape input)
-		(at 44.45 144.78 0)
+		(at 44.45 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8926,7 +8981,7 @@
 		)
 		(uuid "6f9bb01a-7279-4234-a2ea-b64a0d379671")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7638 144.78 0)
+			(at 63.7638 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9073,7 +9128,7 @@
 	)
 	(global_label "OUT_CLK"
 		(shape input)
-		(at 35.56 114.3 180)
+		(at 35.56 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9083,7 +9138,7 @@
 		)
 		(uuid "7d7372d4-fbd3-4409-97c2-cc13a9d162e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.4105 114.3 0)
+			(at 24.4105 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9117,7 +9172,7 @@
 	)
 	(global_label "DATA_SD_SNIFF_2"
 		(shape input)
-		(at 44.45 132.08 0)
+		(at 44.45 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9127,7 +9182,7 @@
 		)
 		(uuid "808a2f31-85f7-4031-9a1c-a4cfa4744d83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7638 132.08 0)
+			(at 63.7638 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9327,7 @@
 	)
 	(global_label "IN_CLK"
 		(shape input)
-		(at 35.56 96.52 180)
+		(at 35.56 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9282,7 +9337,7 @@
 		)
 		(uuid "8bc036d2-ede6-4474-8f0a-2c8099fc9069")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.1038 96.52 0)
+			(at 26.1038 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9317,7 +9372,7 @@
 	)
 	(global_label "SELECT_SD_PIN"
 		(shape input)
-		(at 215.9 109.22 90)
+		(at 241.3 120.65 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9327,7 +9382,7 @@
 		)
 		(uuid "922ac036-c845-4aa2-b5fb-5914aaf71ebd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.9 91.8416 90)
+			(at 241.3 103.2716 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9362,7 +9417,7 @@
 	)
 	(global_label "SPI1_CSn"
 		(shape input)
-		(at 53.34 101.6 0)
+		(at 53.34 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9372,7 +9427,7 @@
 		)
 		(uuid "9b658fbc-d09a-483d-b935-a1a7be49fe58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.2151 101.6 0)
+			(at 65.2151 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9406,7 +9461,7 @@
 	)
 	(global_label "OUT_DAT0"
 		(shape input)
-		(at 40.64 142.24 180)
+		(at 40.64 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9416,7 +9471,7 @@
 		)
 		(uuid "9f148809-fdd6-4331-8925-b3802e812df2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.5229 142.24 0)
+			(at 28.5229 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9428,7 +9483,7 @@
 	)
 	(global_label "SPI0_RX_MISO"
 		(shape input)
-		(at 44.45 142.24 0)
+		(at 44.45 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9438,7 +9493,7 @@
 		)
 		(uuid "a022958b-06a0-4eda-ab06-5a587e37514e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7399 142.24 0)
+			(at 60.7399 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9586,7 +9641,7 @@
 	)
 	(global_label "IN_DAT0"
 		(shape input)
-		(at 35.56 109.22 180)
+		(at 35.56 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9596,7 +9651,7 @@
 		)
 		(uuid "b0179484-e5b8-48db-91e6-64cc3e35c029")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.1362 109.22 0)
+			(at 25.1362 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,7 +9663,7 @@
 	)
 	(global_label "IN_DAT1"
 		(shape input)
-		(at 35.56 101.6 180)
+		(at 35.56 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9618,7 +9673,7 @@
 		)
 		(uuid "b1c5a9e2-8efd-470e-9796-dfdcfcfb9275")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.1362 101.6 0)
+			(at 25.1362 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9653,7 +9708,7 @@
 	)
 	(global_label "PROG_VSS"
 		(shape input)
-		(at 200.66 107.95 90)
+		(at 226.06 119.38 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9663,7 +9718,7 @@
 		)
 		(uuid "b458d33d-30ba-4601-a798-f3acc41c419d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 95.3491 90)
+			(at 226.06 106.7791 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9743,7 +9798,7 @@
 	)
 	(global_label "SPI0_TX_MOSI"
 		(shape input)
-		(at 44.45 137.16 0)
+		(at 44.45 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9753,7 +9808,7 @@
 		)
 		(uuid "b87ffd31-9327-4ea2-ba12-152233fed40d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.4375 137.16 0)
+			(at 60.4375 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,6 +9836,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT_DAT3"
+		(shape input)
+		(at 40.64 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c13ad3a2-dde5-482a-aed9-17be740dce75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.5229 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9854,7 +9931,7 @@
 	)
 	(global_label "DATA_DIRECT_1"
 		(shape input)
-		(at 35.56 88.9 180)
+		(at 35.56 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9864,7 +9941,7 @@
 		)
 		(uuid "c7315745-2c06-4deb-a3e5-993d5a866914")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.4839 88.9 0)
+			(at 18.4839 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9920,7 +9997,7 @@
 	)
 	(global_label "IN_DAT2"
 		(shape input)
-		(at 35.56 104.14 180)
+		(at 35.56 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9930,7 +10007,7 @@
 		)
 		(uuid "d0574145-7859-40af-bed0-fbc89e52ebfc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.1362 104.14 0)
+			(at 25.1362 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10189,7 +10266,7 @@
 	)
 	(global_label "OUT_DAT2"
 		(shape input)
-		(at 53.34 111.76 0)
+		(at 53.34 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10199,7 +10276,7 @@
 		)
 		(uuid "dffdf62b-eb0c-4882-85d3-b83662bf77ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.4571 111.76 0)
+			(at 65.4571 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10567,6 +10644,28 @@
 			)
 		)
 	)
+	(global_label "OUT_CLK"
+		(shape input)
+		(at 40.64 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7f6210e-e9cd-45bb-9f45-686478a870f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.4905 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FLASH_IO2"
 		(shape input)
 		(at 104.14 78.74 180)
@@ -10591,7 +10690,7 @@
 	)
 	(global_label "OUT_DAT3"
 		(shape input)
-		(at 53.34 104.14 0)
+		(at 53.34 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10601,7 +10700,7 @@
 		)
 		(uuid "fc24fe3d-004b-4792-954a-43fa1e08be81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.4571 104.14 0)
+			(at 65.4571 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10613,7 +10712,7 @@
 	)
 	(global_label "SELECT_SD_PIN"
 		(shape input)
-		(at 53.34 114.3 0)
+		(at 53.34 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10623,7 +10722,7 @@
 		)
 		(uuid "fc59d0f4-ceb8-4dac-b6dc-dbd7d6d1c261")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.7184 114.3 0)
+			(at 70.7184 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10657,7 +10756,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:NMUX27518EPWJ")
-		(at 44.45 102.87 0)
+		(at 44.45 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10666,7 +10765,7 @@
 		(fields_autoplaced yes)
 		(uuid "0473837e-1ec3-4e70-924a-d1f34ff7956c")
 		(property "Reference" "U2"
-			(at 44.45 81.28 0)
+			(at 44.45 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10674,7 +10773,7 @@
 			)
 		)
 		(property "Value" "NMUX27518EPWJ"
-			(at 44.45 83.82 0)
+			(at 44.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10682,7 +10781,7 @@
 			)
 		)
 		(property "Footprint" "JLC:NMUX27518EPWJ"
-			(at 44.45 102.87 0)
+			(at 44.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10691,7 +10790,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/6601.html"
-			(at 44.45 102.87 0)
+			(at 44.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10700,7 +10799,7 @@
 			)
 		)
 		(property "Description" "TSSOP-24 Analog Switches, Multiplexers ROHS"
-			(at 44.45 102.87 0)
+			(at 44.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10709,7 +10808,7 @@
 			)
 		)
 		(property "LCSC" "C50341769"
-			(at 44.45 102.87 0)
+			(at 44.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10718,7 +10817,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 44.45 102.87 0)
+			(at 44.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10727,7 +10826,7 @@
 			)
 		)
 		(property "Manufacturer Part" "NMUX27518EPWJ"
-			(at 44.45 102.87 0)
+			(at 44.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11044,7 +11143,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 128.27 0)
+		(at 209.55 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11052,7 +11151,7 @@
 		(dnp no)
 		(uuid "0ebdbb04-e9f0-4fcf-a5b9-577c4a24eddb")
 		(property "Reference" "#PWR036"
-			(at 184.15 134.62 0)
+			(at 209.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11061,7 +11160,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.182 131.826 0)
+			(at 211.582 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11070,7 +11169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 128.27 0)
+			(at 209.55 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11079,7 +11178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 128.27 0)
+			(at 209.55 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11088,7 +11187,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 128.27 0)
+			(at 209.55 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11573,10 +11672,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "28e112f6-9458-4a3d-a98c-e48183af59ac")
 		(property "Reference" "Card1"
-			(at 49.53 154.94 0)
+			(at 49.53 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11584,7 +11682,7 @@
 			)
 		)
 		(property "Value" "TF-009"
-			(at 49.53 157.48 0)
+			(at 49.784 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11676,6 +11774,167 @@
 			(project "SDcore"
 				(path "/4923730a-c063-43f4-b067-8ce717e5d6d0"
 					(reference "Card1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 66.04 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2978e4b5-23eb-417c-9f7b-52aa99a19fd9")
+		(property "Reference" "#PWR013"
+			(at 62.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 71.628 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 66.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1895d87a-f372-4345-bf94-2d3eb8951ede")
+		)
+		(instances
+			(project "SDcore"
+				(path "/4923730a-c063-43f4-b067-8ce717e5d6d0"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:CRCW040210K0FKED")
+		(at 45.72 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32450003-56cf-456e-90f2-eb784c2025a2")
+		(property "Reference" "R15"
+			(at 45.466 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 49.022 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:CRCW040210K0FKED"
+			(at 45.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Vishay-Intertech-CRCW040210K0FKED_C71617.pdf"
+			(at 45.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 45.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C71617"
+			(at 45.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Intertech"
+			(at 45.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CRCW040210K0FKED"
+			(at 45.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a592e0bb-0773-45b7-8500-ee155b019775")
+		)
+		(pin "2"
+			(uuid "93eee51a-d36a-4b3a-92e9-b09a77456d30")
+		)
+		(instances
+			(project "SDcore"
+				(path "/4923730a-c063-43f4-b067-8ce717e5d6d0"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -12010,7 +12269,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:CRCW040233R0FKED")
-		(at 200.66 113.03 90)
+		(at 226.06 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12018,7 +12277,7 @@
 		(dnp no)
 		(uuid "460f77e5-1621-4853-81b2-14876de6c31a")
 		(property "Reference" "R9"
-			(at 198.12 111.252 90)
+			(at 223.52 122.682 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12026,7 +12285,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 203.454 114.554 90)
+			(at 228.854 125.984 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12034,7 +12293,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:CRCW040233R0FKED"
-			(at 200.66 113.03 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12043,7 +12302,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Vishay-Intertech-CRCW040233R0FKED_C242490.pdf"
-			(at 200.66 113.03 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12052,7 +12311,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 33Ω 50V 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 200.66 113.03 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12061,7 +12320,7 @@
 			)
 		)
 		(property "LCSC" "C242490"
-			(at 200.66 113.03 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12070,7 +12329,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Intertech"
-			(at 200.66 113.03 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12079,7 +12338,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CRCW040233R0FKED"
-			(at 200.66 113.03 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12363,7 +12622,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:CRCW040233R0FKED")
-		(at 215.9 114.3 90)
+		(at 241.3 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12371,7 +12630,7 @@
 		(dnp no)
 		(uuid "4c284258-6632-484d-9907-0ed7836d309e")
 		(property "Reference" "R10"
-			(at 212.09 112.268 90)
+			(at 237.49 123.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12379,7 +12638,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 218.694 115.824 90)
+			(at 244.094 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12387,7 +12646,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:CRCW040233R0FKED"
-			(at 215.9 114.3 0)
+			(at 241.3 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12396,7 +12655,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Vishay-Intertech-CRCW040233R0FKED_C242490.pdf"
-			(at 215.9 114.3 0)
+			(at 241.3 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12405,7 +12664,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 33Ω 50V 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 215.9 114.3 0)
+			(at 241.3 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12414,7 +12673,7 @@
 			)
 		)
 		(property "LCSC" "C242490"
-			(at 215.9 114.3 0)
+			(at 241.3 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12423,7 +12682,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Intertech"
-			(at 215.9 114.3 0)
+			(at 241.3 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12432,7 +12691,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CRCW040233R0FKED"
-			(at 215.9 114.3 0)
+			(at 241.3 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12636,6 +12895,102 @@
 			(project ""
 				(path "/4923730a-c063-43f4-b067-8ce717e5d6d0"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:CRCW040210K0FKED")
+		(at 55.88 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "555e34a5-a8b9-4f66-a915-ea01995978d6")
+		(property "Reference" "R16"
+			(at 55.626 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 59.182 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:CRCW040210K0FKED"
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Vishay-Intertech-CRCW040210K0FKED_C71617.pdf"
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C71617"
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Intertech"
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CRCW040210K0FKED"
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec33cbf7-94df-4142-9489-7402da8f29e0")
+		)
+		(pin "2"
+			(uuid "4e97ea00-bc05-48e7-a261-65a0846c9f05")
+		)
+		(instances
+			(project "SDcore"
+				(path "/4923730a-c063-43f4-b067-8ce717e5d6d0"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -13648,7 +14003,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 128.27 0)
+		(at 226.06 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13656,7 +14011,7 @@
 		(dnp no)
 		(uuid "7938f75d-d714-45d5-8126-856938dcd36e")
 		(property "Reference" "#PWR050"
-			(at 200.66 134.62 0)
+			(at 226.06 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13665,7 +14020,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 202.692 131.826 0)
+			(at 228.092 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13674,7 +14029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 128.27 0)
+			(at 226.06 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13683,7 +14038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 128.27 0)
+			(at 226.06 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13692,7 +14047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 128.27 0)
+			(at 226.06 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13787,8 +14142,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "812b2811-cc40-4dcc-b507-efb5417ae18d")
-		(property "Reference" "R11"
-			(at 90.678 121.158 0)
+		(property "Reference" "R7"
+			(at 90.17 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13868,7 +14223,7 @@
 		(instances
 			(project "SDcore"
 				(path "/4923730a-c063-43f4-b067-8ce717e5d6d0"
-					(reference "R11")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14170,7 +14525,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:XL-1005SURC_C25503345")
-		(at 184.15 123.19 90)
+		(at 209.55 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14179,7 +14534,7 @@
 		(fields_autoplaced yes)
 		(uuid "8eb65286-c261-4f25-8279-dad83799e1e2")
 		(property "Reference" "LED1"
-			(at 186.69 122.6819 90)
+			(at 212.09 134.1119 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14188,7 +14543,7 @@
 			)
 		)
 		(property "Value" "Power_led"
-			(at 186.69 125.2219 90)
+			(at 212.09 136.6519 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14197,7 +14552,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:XL-1005SURC_C25503345"
-			(at 184.15 123.19 0)
+			(at 209.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14206,7 +14561,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2407041716_XINGLIGHT-XL-1005SURC_C25503345.pdf"
-			(at 184.15 123.19 0)
+			(at 209.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14215,7 +14570,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 1.8V~2.4V 120° 1mm x 0.5mm square LED 200mcd 20mA 50mW 615nm~630nm 625nm Discrete Diode Red Water Clear 0402 LED Indication - Discrete ROHS"
-			(at 184.15 123.19 0)
+			(at 209.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14224,7 +14579,7 @@
 			)
 		)
 		(property "LCSC" "C25503345"
-			(at 184.15 123.19 0)
+			(at 209.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14233,7 +14588,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT"
-			(at 184.15 123.19 0)
+			(at 209.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14242,7 +14597,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XL-1005SURC"
-			(at 184.15 123.19 0)
+			(at 209.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14363,7 +14718,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:ERJPA2F68R0X")
-		(at 184.15 113.03 90)
+		(at 209.55 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14371,7 +14726,7 @@
 		(dnp no)
 		(uuid "90b140e5-41f8-484a-83bc-347c1afc0c5e")
 		(property "Reference" "R8"
-			(at 180.086 111.506 90)
+			(at 205.486 122.936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14380,7 +14735,7 @@
 			)
 		)
 		(property "Value" "68"
-			(at 185.674 114.554 90)
+			(at 211.074 125.984 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14389,7 +14744,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:ERJPA2F68R0X"
-			(at 184.15 113.03 0)
+			(at 209.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14398,7 +14753,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_PANASONIC-ERJPA2F68R0X_C542959.pdf"
-			(at 184.15 113.03 0)
+			(at 209.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14407,7 +14762,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 200mW 68Ω Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 184.15 113.03 0)
+			(at 209.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14416,7 +14771,7 @@
 			)
 		)
 		(property "LCSC" "C542959"
-			(at 184.15 113.03 0)
+			(at 209.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14425,7 +14780,7 @@
 			)
 		)
 		(property "Manufacturer" "PANASONIC"
-			(at 184.15 113.03 0)
+			(at 209.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14434,7 +14789,7 @@
 			)
 		)
 		(property "Manufacturer Part" "ERJPA2F68R0X"
-			(at 184.15 113.03 0)
+			(at 209.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14620,7 +14975,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 35.56 106.68 90)
+		(at 35.56 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14629,7 +14984,7 @@
 		(fields_autoplaced yes)
 		(uuid "96dc6e74-d060-430a-a4c3-5c250fc3f045")
 		(property "Reference" "#PWR08"
-			(at 39.37 106.68 0)
+			(at 39.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14638,7 +14993,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 31.75 106.6799 90)
+			(at 31.75 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14647,7 +15002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 106.68 0)
+			(at 35.56 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14656,7 +15011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 106.68 0)
+			(at 35.56 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14665,7 +15020,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 35.56 106.68 0)
+			(at 35.56 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14752,102 +15107,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:CRCW04024K70FKEDC")
-		(at 146.05 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "97f651e2-48a3-491f-8988-4bd9de36b341")
-		(property "Reference" "R12"
-			(at 145.796 26.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 146.05 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCImport:CRCW04024K70FKEDC"
-			(at 146.05 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108140230_Vishay-Intertech-CRCW04024K70FKEDC_C844311.pdf"
-			(at 146.05 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 4.7kΩ 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 146.05 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C844311"
-			(at 146.05 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay Intertech"
-			(at 146.05 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "CRCW04024K70FKEDC"
-			(at 146.05 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "634f4178-22cf-4d20-95a4-02e97394134e")
-		)
-		(pin "1"
-			(uuid "af16716c-3f59-4f5f-9415-f1557fd749e8")
-		)
-		(instances
-			(project ""
-				(path "/4923730a-c063-43f4-b067-8ce717e5d6d0"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JLCImport:XL-1005UBC_C22355736")
-		(at 200.66 123.19 90)
+		(at 226.06 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14855,7 +15116,7 @@
 		(dnp no)
 		(uuid "99d70e76-46b5-4963-9dcc-e02c61dd202b")
 		(property "Reference" "LED2"
-			(at 203.2 122.428 90)
+			(at 228.6 133.858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14864,7 +15125,7 @@
 			)
 		)
 		(property "Value" "Prog_led"
-			(at 203.2 124.968 90)
+			(at 228.6 136.398 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14873,7 +15134,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:XL-1005UBC_C22355736"
-			(at 200.66 123.19 0)
+			(at 226.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14882,7 +15143,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403110921_XINGLIGHT-XL-1005UBC_C22355736.pdf"
-			(at 200.66 123.19 0)
+			(at 226.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14891,7 +15152,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 120° 20mA 240mcd 3.3V 455nm~475nm 465nm 70mW Blue Discrete Diode Top-mount Water Clear 0402 LED Indication - Discrete ROHS"
-			(at 200.66 123.19 0)
+			(at 226.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14900,7 +15161,7 @@
 			)
 		)
 		(property "LCSC" "C22355736"
-			(at 200.66 123.19 0)
+			(at 226.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14909,7 +15170,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT"
-			(at 200.66 123.19 0)
+			(at 226.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14918,7 +15179,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XL-1005UBC"
-			(at 200.66 123.19 0)
+			(at 226.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15010,7 +15271,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 99.06 270)
+		(at 35.56 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15019,7 +15280,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bc29c61-bbdb-435b-a91f-4c80165d44e0")
 		(property "Reference" "#PWR07"
-			(at 29.21 99.06 0)
+			(at 29.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15028,7 +15289,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 99.0599 90)
+			(at 31.75 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15037,7 +15298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 99.06 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15046,7 +15307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 99.06 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15055,7 +15316,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 99.06 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15275,7 +15536,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 129.54 0)
+		(at 241.3 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15283,7 +15544,7 @@
 		(dnp no)
 		(uuid "a42a7d11-ec9a-4965-a42c-09d5dc239790")
 		(property "Reference" "#PWR051"
-			(at 215.9 135.89 0)
+			(at 241.3 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15292,7 +15553,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.932 133.096 0)
+			(at 243.332 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15301,7 +15562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 129.54 0)
+			(at 241.3 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15310,7 +15571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 129.54 0)
+			(at 241.3 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15319,7 +15580,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 129.54 0)
+			(at 241.3 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15334,6 +15595,102 @@
 			(project "SDcore"
 				(path "/4923730a-c063-43f4-b067-8ce717e5d6d0"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:CRCW040210K0FKED")
+		(at 45.72 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acacb1b7-9a42-40c7-af1c-0c2bfc70ca1e")
+		(property "Reference" "R11"
+			(at 45.466 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 49.022 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:CRCW040210K0FKED"
+			(at 45.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Vishay-Intertech-CRCW040210K0FKED_C71617.pdf"
+			(at 45.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 45.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C71617"
+			(at 45.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Intertech"
+			(at 45.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CRCW040210K0FKED"
+			(at 45.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fd62db8-9ccb-44af-9317-bbb1df6d9653")
+		)
+		(pin "2"
+			(uuid "24113587-7806-453c-bb1e-f4710f8cdb66")
+		)
+		(instances
+			(project "SDcore"
+				(path "/4923730a-c063-43f4-b067-8ce717e5d6d0"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -16108,6 +16465,102 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:CRCW040210K0FKED")
+		(at 55.88 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c21fff11-4e19-440c-95a5-908762ecdb6d")
+		(property "Reference" "R12"
+			(at 55.626 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 59.182 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:CRCW040210K0FKED"
+			(at 55.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Vishay-Intertech-CRCW040210K0FKED_C71617.pdf"
+			(at 55.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 55.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C71617"
+			(at 55.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Intertech"
+			(at 55.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CRCW040210K0FKED"
+			(at 55.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3646fb1-d82c-4433-a965-f2d527b6efd1")
+		)
+		(pin "2"
+			(uuid "64e10f23-8a11-4e8f-96c8-6d0fed087e34")
+		)
+		(instances
+			(project "SDcore"
+				(path "/4923730a-c063-43f4-b067-8ce717e5d6d0"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:RP2350A_C42411118")
 		(at 127 147.32 0)
 		(unit 1)
@@ -16773,8 +17226,104 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:CRCW040210K0FKED")
+		(at 55.88 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd077381-0d3f-4e44-bd33-28c8638d8f57")
+		(property "Reference" "R14"
+			(at 55.626 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 59.182 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:CRCW040210K0FKED"
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Vishay-Intertech-CRCW040210K0FKED_C71617.pdf"
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C71617"
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Intertech"
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CRCW040210K0FKED"
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "620acb45-ac60-4716-bcab-6f9e411ea3e2")
+		)
+		(pin "2"
+			(uuid "e9a35a6d-b2cc-4020-87df-f03df923353c")
+		)
+		(instances
+			(project "SDcore"
+				(path "/4923730a-c063-43f4-b067-8ce717e5d6d0"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 184.15 107.95 0)
+		(at 209.55 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16782,7 +17331,7 @@
 		(dnp no)
 		(uuid "cd2e84bd-cd9e-41d0-8ed4-ae5640b66567")
 		(property "Reference" "#PWR049"
-			(at 184.15 111.76 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16791,7 +17340,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 184.15 102.362 90)
+			(at 209.55 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16799,7 +17348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 107.95 0)
+			(at 209.55 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16808,7 +17357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 107.95 0)
+			(at 209.55 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16817,7 +17366,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 184.15 107.95 0)
+			(at 209.55 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17476,7 +18025,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:16-213_GHC-YR1S1_3T")
-		(at 214.63 124.46 90)
+		(at 240.03 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17485,7 +18034,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8af201f-69fb-40e1-8c7a-2aa7ed021db3")
 		(property "Reference" "LED3"
-			(at 219.71 123.6979 90)
+			(at 245.11 135.1279 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17494,7 +18043,7 @@
 			)
 		)
 		(property "Value" "SEL_led"
-			(at 219.71 126.2379 90)
+			(at 245.11 137.6679 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17503,7 +18052,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:16-213_GHC-YR1S1_3T"
-			(at 214.63 124.46 0)
+			(at 240.03 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17512,7 +18061,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809211234_Everlight-Elec-16-213-GHC-YR1S1-3T_C74338.pdf"
-			(at 214.63 124.46 0)
+			(at 240.03 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17521,7 +18070,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 110mW 120° 168.5mcd 20mA 3.3V 518nm 528nm Discrete Diode Green Water Clear 0402 LED Indication - Discrete ROHS"
-			(at 214.63 124.46 0)
+			(at 240.03 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17530,7 +18079,7 @@
 			)
 		)
 		(property "LCSC" "C74338"
-			(at 214.63 124.46 0)
+			(at 240.03 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17539,7 +18088,7 @@
 			)
 		)
 		(property "Manufacturer" "Everlight Elec"
-			(at 214.63 124.46 0)
+			(at 240.03 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17548,7 +18097,7 @@
 			)
 		)
 		(property "Manufacturer Part" "16-213/GHC-YR1S1/3T"
-			(at 214.63 124.46 0)
+			(at 240.03 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17698,6 +18247,102 @@
 			(project "SDcore"
 				(path "/4923730a-c063-43f4-b067-8ce717e5d6d0"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:CRCW040210K0FKED")
+		(at 45.72 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed0c8ca7-b25b-4eb7-a712-88dd7cdb705e")
+		(property "Reference" "R13"
+			(at 45.466 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 49.022 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:CRCW040210K0FKED"
+			(at 45.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Vishay-Intertech-CRCW040210K0FKED_C71617.pdf"
+			(at 45.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 63mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 45.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C71617"
+			(at 45.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Intertech"
+			(at 45.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CRCW040210K0FKED"
+			(at 45.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43d1b94d-1956-4722-bb33-bd6e10b12a43")
+		)
+		(pin "2"
+			(uuid "fca22cf0-91af-4159-bee9-6217c9fede74")
+		)
+		(instances
+			(project "SDcore"
+				(path "/4923730a-c063-43f4-b067-8ce717e5d6d0"
+					(reference "R13")
 					(unit 1)
 				)
 			)
