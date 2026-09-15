@@ -527,7 +527,7 @@
       "plot": "Gerber files/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../Documents/SDcore-1.0mm.stl",
       "svg": "",
       "vrml": ""
     },
