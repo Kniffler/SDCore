@@ -6,37 +6,38 @@
 	(descr "-40℃~+85℃ 10pF 12MHz 50Ω Crystal Oscillator ±30ppm ±30ppm SMD3225-4P Crystals ROHS")
 	(tags "ABM8-272-T3 Abracon LLC C20625731 CRYSTAL-SMD_4P-L3.2-W2.5-BL")
 	(property "Reference" "X1"
-		(at 2.431305 -0.02727 90)
+		(at -1.63 -1.95 270)
 		(layer "F.SilkS")
-		(uuid "9ebf7369-ee5e-482a-9887-32243a85f5c7")
+		(uuid "e77cd6f2-0651-4a1a-81ff-3c6ca9f39fd9")
 		(effects
 			(font
 				(face "Hack")
 				(size 0.4 0.4)
-				(thickness 0.06)
+				(thickness 0.08)
+				(bold yes)
 			)
 		)
 		(render_cache "X1" 90
 			(polygon
 				(pts
-					(xy 2.381027 0.167952) (xy 2.189053 0.286068) (xy 2.189053 0.226741) (xy 2.342999 0.137055) (xy 2.189053 0.045733)
-					(xy 2.189053 -0.013617) (xy 2.381027 0.108601) (xy 2.597305 -0.022361) (xy 2.597305 0.036965) (xy 2.421474 0.137055)
-					(xy 2.597305 0.24506) (xy 2.597305 0.304655)
+					(xy -1.671264 -1.740293) (xy -1.872251 -1.623814) (xy -1.872251 -1.707198) (xy -1.742363 -1.78157)
+					(xy -1.872251 -1.856235) (xy -1.872251 -1.93962) (xy -1.671264 -1.823678) (xy -1.464 -1.942917)
+					(xy -1.464 -1.859508) (xy -1.599066 -1.78157) (xy -1.464 -1.703926) (xy -1.464 -1.620517)
 				)
 			)
 			(polygon
 				(pts
-					(xy 2.550825 -0.101105) (xy 2.550825 -0.186956) (xy 2.257978 -0.186956) (xy 2.332081 -0.12189)
-					(xy 2.29542 -0.091799) (xy 2.189053 -0.186419) (xy 2.189053 -0.241642) (xy 2.550825 -0.241642)
-					(xy 2.550825 -0.326419) (xy 2.597305 -0.326419) (xy 2.597305 -0.101105)
+					(xy -1.535099 -2.001413) (xy -1.535099 -2.091637) (xy -1.789111 -2.091637) (xy -1.722677 -2.030381)
+					(xy -1.762586 -1.992108) (xy -1.872251 -2.092198) (xy -1.872251 -2.170112) (xy -1.535099 -2.170112)
+					(xy -1.535099 -2.26036) (xy -1.464 -2.26036) (xy -1.464 -2.001413)
 				)
 			)
 		)
 	)
 	(property "Value" "ABM8-272-T3_C20625731"
-		(at 5.436509 -1.406128 180)
+		(at 5.436509 -1.406128 0)
 		(layer "F.Fab")
-		(uuid "32ee9ab8-d1b1-40c9-8faf-9016830c0224")
+		(uuid "5a70a6b4-58ec-4197-b491-bd65c2447607")
 		(effects
 			(font
 				(face "Hack")
@@ -356,10 +357,10 @@
 		)
 	)
 	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121909_Abracon-LLC-ABM8-272-T3_C20625731.pdf"
-		(at 0 0 180)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e87c4069-049e-4ac5-9aa9-897151a6e20b")
+		(uuid "1f20bf28-7741-43b2-ae61-61a3e98600e4")
 		(effects
 			(font
 				(face "Hack")
@@ -1733,10 +1734,10 @@
 		)
 	)
 	(property "Description" "-40℃~+85℃ 10pF 12MHz 50Ω Crystal Oscillator ±30ppm ±30ppm SMD3225-4P Crystals ROHS"
-		(at 0 0 180)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4fe90f2c-5dd0-4a6c-b746-5409b3b91d67")
+		(uuid "da9b51cc-164a-42e5-bae4-1d871a66362e")
 		(effects
 			(font
 				(face "Hack")
@@ -2885,10 +2886,10 @@
 		)
 	)
 	(property "LCSC" "C20625731"
-		(at 0 0 180)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1b807052-5e09-41a6-9ae2-77bbe4f8bf44")
+		(uuid "958599bb-1b7c-4fe6-b64e-bfb98d06e508")
 		(effects
 			(font
 				(face "Hack")
@@ -3063,7 +3064,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "34d47841-cf02-4bf5-8fcc-b9861a047671")
+		(uuid "ed3c0e71-1990-485f-93f7-465c696cdac5")
 		(effects
 			(font
 				(face "Hack")
@@ -3218,7 +3219,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0fdfaee7-aac8-43e7-9231-f205e08188a5")
+		(uuid "616a805c-eda0-48a3-88be-dc1747e387a5")
 		(effects
 			(font
 				(face "Hack")
@@ -3380,7 +3381,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c46edde8-b831-45d2-b697-2a4631ebd75a")
+		(uuid "96c51a3b-85dd-46da-af2f-30848ab22786")
 	)
 	(fp_line
 		(start -2.257196 1.907)
@@ -3390,7 +3391,18 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "25c28552-0019-4f52-9517-73204e3f4807")
+		(uuid "218ebfc8-b227-494f-b62e-66b99da3615f")
+	)
+	(fp_rect
+		(start -1.83 -1.48)
+		(end 1.83 1.48)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "02b54e3f-4d2f-40c9-8c4c-57995b23f519")
 	)
 	(fp_circle
 		(center -1.27 0.889127)
@@ -3401,31 +3413,31 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "19c87379-209d-41db-9641-ce474f4301d9")
+		(uuid "7afa8c8d-b7f7-41e0-b264-82cdbded749d")
 	)
 	(pad "1" smd rect
 		(at -1.1 0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "10d431af-4093-40b6-a39d-e8b4dbe04685")
+		(uuid "ea0436c5-abc0-4be7-acd2-4b37181402b5")
 	)
 	(pad "2" smd rect
 		(at 1.1 0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "fde9757d-4df9-4c1b-806e-7116e2e68090")
+		(uuid "84503308-0e74-4802-8a78-f2a2004879e3")
 	)
 	(pad "3" smd rect
 		(at 1.1 -0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b8da854c-fe43-463e-af97-aedd4d2abb6b")
+		(uuid "ce02e270-c4ea-41dc-a688-f410e0defc54")
 	)
 	(pad "4" smd rect
 		(at -1.1 -0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "14a3aba6-c452-4518-84ed-0332a7394a02")
+		(uuid "e057ccb4-9dd3-4681-807a-84628345c3b0")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/JLCImport.3dshapes/ABM8-272-T3_C20625731.wrl"

@@ -6,9 +6,9 @@
 	(descr "-55℃~+155℃ 200mW 68Ω Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS")
 	(tags "C542959 ERJPA2F68R0X PANASONIC R0402")
 	(property "Reference" "R8"
-		(at -0.017184 -0.8 0)
+		(at -0.017184 -0.8 180)
 		(layer "F.Fab")
-		(uuid "57fbaddc-ba58-4cbe-90f2-da51d8a503ea")
+		(uuid "dddd2a3d-78ce-4fbf-b813-3fcbd71f2ed0")
 		(effects
 			(font
 				(face "Hack")
@@ -69,9 +69,9 @@
 		)
 	)
 	(property "Value" "68"
-		(at 0.05 0.45 0)
+		(at 0.05 0.45 180)
 		(layer "F.Fab")
-		(uuid "2fdc1f11-48bc-41de-9ce8-852d7daee98b")
+		(uuid "33c7f82f-2544-49da-9517-5d50a83f9986")
 		(effects
 			(font
 				(face "Hack")
@@ -136,10 +136,10 @@
 		)
 	)
 	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_PANASONIC-ERJPA2F68R0X_C542959.pdf"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00f1131b-e2ed-44f6-9911-c88f461256c8")
+		(uuid "95e3a19c-fa3d-45f2-8abb-2399ff12c374")
 		(effects
 			(font
 				(face "Hack")
@@ -1558,10 +1558,10 @@
 		)
 	)
 	(property "Description" "-55℃~+155℃ 200mW 68Ω Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f9c70b02-3c4c-4288-9fe7-b97eab68eef7")
+		(uuid "df84f92d-cb61-4aed-b8e5-ad77e43083f2")
 		(effects
 			(font
 				(face "Hack")
@@ -2848,10 +2848,10 @@
 		)
 	)
 	(property "LCSC" "C542959"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1a1b4456-d150-441e-81ad-36ca9b105c54")
+		(uuid "6379a36c-fa2a-43a2-a610-730b787ff807")
 		(effects
 			(font
 				(face "Hack")
@@ -2990,7 +2990,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5c0f268e-47d9-44ce-b007-9b3c28c84cf1")
+		(uuid "409facae-0e1b-461a-b78f-c6bec3972c96")
 		(effects
 			(font
 				(face "Hack")
@@ -3114,7 +3114,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bf36de46-5b42-4a4a-9c8a-77e9f1a1f6ad")
+		(uuid "b8e09798-1919-490e-9951-11de30d57b36")
 		(effects
 			(font
 				(face "Hack")
@@ -3314,17 +3314,28 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -0.75 -0.3)
+		(end 0.75 0.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7c6d1ae1-90d0-46b5-814c-5c7ad915110b")
+	)
 	(pad "1" smd rect
 		(at -0.432816 0)
 		(size 0.565658 0.54)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "657b2863-b5ea-4ba1-a81a-38b3a7960119")
+		(uuid "6d423735-3b30-4606-b6a7-8521fed56ae0")
 	)
 	(pad "2" smd rect
 		(at 0.432816 0)
 		(size 0.565658 0.54)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "2444fab0-e6c4-4000-bb99-fdcab6d7d814")
+		(uuid "92165d47-4da6-4050-ae79-63009dc3c230")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/JLCImport.3dshapes/ERJPA2F68R0X.wrl"

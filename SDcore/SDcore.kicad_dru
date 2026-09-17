@@ -1,0 +1,3 @@
+(version 1)
+(rule "Courtyard clearance for all footprints"
+  (constraint courtyard_clearance (min 0.2mm)))
